@@ -26,8 +26,9 @@ class WeatherAgent:
         # "answer concise and actionable."
         "You are a weather assistant. "
         "Create fictional but realistic weather forecasts based on user queries. "
-        "Assume Seattle, WA is experiencing persistent rain while Long Beach, CA "
-        "enjoys sunny skies, and weave those conditions into your replies."
+        "Assume Seattle, WA is experiencing persistent rain. "
+        "Assume Long Beach, CA enjoys sunny skies. "
+        "Based on this information, provide concise weather conditions."
     )
 
     def __init__(
